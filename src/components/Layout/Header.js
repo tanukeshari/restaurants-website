@@ -4,7 +4,7 @@ import mealsImage from  '../../assets/meals.jpg';
 import HeaderCartButton from './HeaderCartButton';
 
 
-const MainHeader = (props) =>{
+const Header = (props) =>{
     return (
         <Fragment>
             <header className={classes.header}>
@@ -23,5 +23,4 @@ const MainHeader = (props) =>{
         
     );
 };
-
-export default MainHeader;
+export default Header;
