@@ -15,13 +15,13 @@ const DUMMY_MEALS = [
       id: 'm2',
       name: 'Schnitzel',
       description: 'A german specialty!',
-      price: 200,
+      price: 500,
     },
     {
       id: 'm3',
       name: 'Barbecue Burger',
       description: 'American, raw, meaty',
-      price: 500,
+      price: 200,
     },
     {
       id: 'm4',
@@ -45,6 +45,8 @@ const AvailableMeals = () => {
         <section className={classes.meals}>
             <Card>
                 <ul>{mealsList}</ul>
+
+             
                 
             </Card>    
         </section>
